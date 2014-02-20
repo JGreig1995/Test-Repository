@@ -92,22 +92,4 @@ namespace Jarrett_Greig
   {
     return z;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
