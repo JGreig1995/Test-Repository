@@ -61,10 +61,37 @@ namespace Jarrett_Greig
     z = zprime;
   }
   
+  void point::rotate_z(float a)
+  //Precondition: A point has x, y, z coordinates.
+  //Postcondition: The point is rotated a degrees about z axis.
+  {
+    float xprime, yprime;
+    xprime = (x * cos( a * 3.14159 / 180.0)) - (y * sin( a * 3.14159 / 180.0));
+    yprime = (x * sin( a * 3.14159 / 180.0)) + (y * cos( a * 3.14159 / 180.0));
+    x = xprime;
+    y = yprime;
+  }
   
+  float point::get_x() const
+  //Precondition: A point has x coordinate.
+  //Postcondition: The value of the x cordinate is returned as a float.
+  {
+    return x;
+  }
   
+  float point::get_y() const
+  //Precondition: A point has y coordinate.
+  //Postcondition: The value of the y coordinate is returned as a float.
+  {
+    return y;
+  }
   
-  
+  float point::get_z() const
+  //Precondition: A point has z coordinate.
+  //Postcondition: The value of the z coordinate is returned as a float.
+  {
+    return z;
+  }
   
   
   
