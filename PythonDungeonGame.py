@@ -2,6 +2,11 @@
 #Please do not represent any of the code as your own work in any case.
 #Enjoy!
 
+#This is a game I developed quickly in Python within 24 hours of picking up the language earlier this month. 
+#It functions as your typical text-based command-in-results-out game. 
+#From design to implementation, this was a good exercise in decision making and I feel 
+#like the idea of using functions as "rooms" is an easy way to tell the game which rooms are adjacent to each other.
+
 leave_spawn = False
 shovel_found = False
 trash_searched = False
